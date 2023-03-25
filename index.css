@@ -14,10 +14,11 @@
 }
 
 body {
-    /* background: rgb(253,228,207);
-background: linear-gradient(60deg, rgba(253,228,207,1) 0%, rgba(185,251,192,1) 100%); */
-    background-image: url(./Imágenes/The\ Best\ Place\ to\ Build\ a\ Website.jfif);
-    background-size: cover;
+    background: rgb(253,228,207);
+background: linear-gradient(60deg, rgba(253,228,207,1) 0%, rgba(185,251,192,1) 100%);
+    /* background-image: url(./Imágenes/The\ Best\ Place\ to\ Build\ a\ Website.jfif);
+    background-size: cover; */
+    background-blend-mode: lighten;
     max-width: 425px;
 
 }
@@ -62,7 +63,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     letter-spacing: 2px;
     color: FBF8CC;
     margin-bottom: 0px;
-    padding: 5px 10px;
 }
 
 .foto {
