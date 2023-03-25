@@ -69,6 +69,10 @@ h2 {
     background-color: FBF8CC;
 }
 
+.linkedin2:hover {
+    box-shadow: 0px 5px 15px rgba(251, 248, 204, .4);
+}
+
 .linkedin2 img {
     width: 20px;
 }
@@ -77,10 +81,15 @@ h2 {
     display: flex;
     justify-content: center;
     width: 80px;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 10px 15px;
     border-radius: 10px;
     background-color: FBF8CC;
+}
+
+.instagram:hover {
+        box-shadow: 0px 5px 15px rgba(251, 248, 204, .4);
 }
 
 .instagram img {
