@@ -14,9 +14,12 @@
 }
 
 body {
-    background: rgb(253,228,207);
-background: linear-gradient(60deg, rgba(253,228,207,1) 0%, rgba(185,251,192,1) 100%);
+    /* background: rgb(253,228,207);
+background: linear-gradient(60deg, rgba(253,228,207,1) 0%, rgba(185,251,192,1) 100%); */
+    background-image: url(./Imágenes/The\ Best\ Place\ to\ Build\ a\ Website.jfif);
+    background-size: cover;
     max-width: 425px;
+
 }
 
 
@@ -34,14 +37,23 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: CFBAF0;
+    /* background-color: CFBAF0; */
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 10px 20px 25px 20px;
     border-radius: 25px;
     box-shadow: 1px 10px 20px black;
+    position: relative;
+    top: 30px;
 }
 
 .titulo { 
-    margin-top: 0px 15px;
+    margin-top: 0px;
 }
 
 .titulo h1 {
@@ -50,10 +62,12 @@ section {
     letter-spacing: 2px;
     color: FBF8CC;
     margin-bottom: 0px;
+    padding: 5px 10px;
 }
 
 .foto {
     margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 .foto img {
@@ -74,6 +88,7 @@ h2 {
     font-size: 16px;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 .linkedin2 {
@@ -99,7 +114,7 @@ h2 {
     justify-content: center;
     width: 80px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     padding: 10px 15px;
     border-radius: 10px;
     background-color: FBF8CC;
