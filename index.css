@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'titulo';
+    src: url(./Fuentes/Kalam-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'titulo2';
+    src: url(./Fuentes/Kalam-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'links';
+    src: url(./Fuentes/Roboto-Bold.ttf);
+}
+
+body {
+    background: rgb(253,228,207);
+background: linear-gradient(60deg, rgba(253,228,207,1) 0%, rgba(185,251,192,1) 100%);
+    max-width: 425px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: CFBAF0;
+    margin: 10px 20px 25px 20px;
+    border-radius: 15px;
+}
+
+.titulo {
+    font-family: 'titulo';
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: FBF8CC;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: CFBAF0;
+    margin: 10px 20px 25px 20px;
+    border-radius: 25px;
+}
+
+.foto img {
+    width: 140px;
+    margin: 15px;
+    border-radius: 100px;
+}
+
+h2 {
+    font-family: 'titulo2';
+    color: FBF8CC;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 5px 12px;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: FBF8CC;
+}
+
+.linkedin img {
+    width: 20px;
+}   
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: FBF8CC;
+}
+
+.instagram img {
+    width: 20px;
+}
