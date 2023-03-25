@@ -59,19 +59,19 @@ h2 {
     margin: 5px 12px;
 }
 
-.linkedin {
+.linkedin2 {
     display: flex;
     justify-content: center;
     width: 80px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 10px 15px;
     border-radius: 10px;
     background-color: FBF8CC;
 }
 
-.linkedin img {
+.linkedin2 img {
     width: 20px;
-}   
+}
 
 .instagram {
     display: flex;
