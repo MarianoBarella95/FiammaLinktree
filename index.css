@@ -20,21 +20,14 @@ background: linear-gradient(60deg, rgba(253,228,207,1) 0%, rgba(185,251,192,1) 1
 }
 
 
-header {
+/* header {
     display: flex;
     justify-content: center;
     background-color: CFBAF0;
     margin: 10px 20px 25px 20px;
     border-radius: 15px;
     box-shadow: 1px 10px 20px black;
-}
-
-.titulo {
-    font-family: 'titulo';
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: FBF8CC;
-}
+} */
 
 section {
     display: flex;
@@ -47,10 +40,32 @@ section {
     box-shadow: 1px 10px 20px black;
 }
 
+.titulo { 
+    margin-top: 0px 15px;
+}
+
+.titulo h1 {
+    font-family: 'titulo';
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: FBF8CC;
+    margin-bottom: 0px;
+}
+
+.foto {
+    margin-bottom: 0px;
+}
+
 .foto img {
     width: 140px;
-    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 0px;
     border-radius: 100px;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.descripcion {
+    margin-top: 0px;
 }
 
 h2 {
@@ -58,7 +73,7 @@ h2 {
     color: FBF8CC;
     font-size: 16px;
     letter-spacing: 1px;
-    margin: 5px 12px;
+    margin-bottom: 15px;
 }
 
 .linkedin2 {
